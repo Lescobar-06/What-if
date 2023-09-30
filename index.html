@@ -12,32 +12,31 @@
       body {
         font-family: "Times New Roman", Times, serif;
         margin: 0;
-        background-color: gray;
+        background-color: whitesmoke;
       }
 
       .header {
         padding: 0;
         text-align: center;
-        background: gray;
-        color: rgb(207, 207, 207);
+        background: whitesmoke;
+        color: black;
         height: 100%;
         width: 100%;
-        color: white;
       }
 
       .header h1 {
-        font-size: 40px;
+        font-size: 60px;
+        color: black;
       }
 
       .navbar {
         overflow: hidden;
-        background-color: #22042ccc;
       }
 
       .navbar a {
         float: left;
         display: block;
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
         padding: 14px 20px;
         text-decoration: none;
@@ -60,18 +59,17 @@
       }
 
       .side {
-        -ms-flex: 30%;
-        flex: 30%;
-        padding: 20px;
-        color: white;
+        padding: 0px;
+        color: rgb(0, 0, 0);
       }
 
       .main {
-        background-color: red;
-        padding: 20px;
-        color: white;
+        background-color: whitesmoke;
+        color: black;
         scroll-behavior: smooth;
-        scroll-snap-type: mandatory;
+        height: 100vh;
+        overflow-x: scroll;
+        scroll-snap-type: y mandatory;
       }
 
       .fakeimg {
@@ -104,7 +102,8 @@
         background-image: url(Img/videogames/BG.jpg);
         height: 250vh;
         width: 200vh;
-        background-repeat: no-repeat;
+        background-repeat: repeat-x;
+        background-position: center;
       }
 
       video#homevid {
@@ -130,9 +129,7 @@
       <video autoplay controls muted loop id="homevid">
         <source src="videos/Forever Young.mp4" type="video/mp4" />
       </video>
-      <p class="center">Scroll</p>
     </div>
-
     <div class="navbar">
       <a
         href="https://www.awwwards.com/inspiration/thumbnail-submission-64e10f90d7c7c990943262"
@@ -145,43 +142,49 @@
       <a href="https://music.youtube.com/watch?v=GKYUNtGrShc"
         >Classic Arcade Games</a
       >
-      <a
-        href="https://chat.openai.com/?model=text-davinci-002-render-sha"
-        class="right"
-        >About</a
-      >
+      <a href="https://en.wikipedia.org/wiki/1980s" class="right">About</a>
     </div>
 
     <div class="row">
       <div class="side">
         <h2>Classic Arcade</h2>
-        <div class="gray" style="height: 100px"></div>
-        <p>The Golden Times</p>
-        <h2>More Insights</h2>
-        <div class="fakeimg" style="height: 60px">Image</div>
-        <br />
-        <div class="fakeimg" style="height: 60px">Image</div>
-        <br />
-        <div class="fakeimg" style="height: 60px">Image</div>
+        <div class="gray"></div>
+        <div class="Arcadegame1">
+          <img src="Img/videogames/1743670-photo-u16.jpg" alt="videogames" />
+        </div>
+        <div class="Arcadegame2">
+          <img src="Img/videogames/FpaeGo9XoAoynVo.png" alt="videogames" />
+        </div>
+
+        <div class="Arcadegame3">
+          <img
+            src="Img/videogames/double-dragon-photo-1.jpg"
+            alt="videogames"
+          />
+        </div>
       </div>
       <div class="main">
         <h2>OG's Melodies</h2>
-        <div class="fakeimg" style="height: 200px">Image</div>
-        <p>
-          The music of the 1980s was a magnificent symphony that encapsulated a
-          whole generation. It was a period when synthesizers and electric
-          guitars danced together, and lyrical poetry was mixed with pulsing
-          beats. The melodies of the 1980s were more than simply songs; they
-          were anthems of tenacity, optimism, and uncontrolled emotion. They
-          talked to dreamers, rebels, and those looking for a better tomorrow.
-          From Michael Jackson's legendary pop to Queen's rebellious rock, the
-          1980s left an unforgettable impression on our hearts and souls. It
-          reminds us that in the face of adversity, we can find our rhythm, rise
-          above, and create a memorable, neon-lit masterpiece in our life.
-        </p>
-        <br />
-        <h2>AESTHETICS</h2>
-        <div class="fakeimg" style="height: 200px">Image</div>
+        <div class="melody1">
+          <img src="Img/Cassettes/Lauryn.jpg" alt="Cassettes" />
+          <img src="Img/Cassettes/coolio.jpg" alt="Cassettes" />
+          <img src="Img/Cassettes/mikejacks.png" alt="Cassettes" />
+        </div>
+        <em
+          ><p>
+            The music of the 1980s was a magnificent symphony that encapsulated
+            a whole generation. It was a period when synthesizers and electric
+            guitars danced together, and lyrical poetry was mixed with pulsing
+            beats. The melodies of the 1980s were more than simply songs; they
+            were anthems of tenacity, optimism, and uncontrolled emotion. They
+            talked to dreamers, rebels, and those looking for a better tomorrow.
+            From Michael Jackson's legendary pop to Queen's rebellious rock, the
+            1980s left an unforgettable impression on our hearts and souls. It
+            reminds us that in the face of adversity, we can find our rhythm,
+            rise above, and create a memorable, neon-lit masterpiece in our
+            life.
+          </p></em
+        >
         <p>
           Accept the energy of the 1980s, relive the moments and use it to power
           your path to a greater and more colorful future.
